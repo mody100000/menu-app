@@ -14,12 +14,13 @@ const menuItems = [
 const AppetizersMenu = () => {
     return (
         <div className="container mx-auto px-10 py-16 mt-24 h-screen">
+            <h3 className='text-xl text-gold font-miniver text-center mb-4'>Starters</h3>
             <div className="flex items-center justify-center mb-16">
                 <svg xmlns="http://www.w3.org/2000/svg" width="41.125" height="9.146" className="mr-4">
                     <path fill="none" stroke="#9C7C57" strokeMiterlimit="10" d="M40.881 8.576L20.562.591.244 8.576"></path>
                     <path fill="none" stroke="#9C7C57" strokeMiterlimit="10" d="M40.881.591L20.562 8.576.243.591"></path>
                 </svg>
-                <h2 className="text-4xl text-gold">APPETIZERS</h2>
+                <h2 className="text-4xl text-gold ">APPETIZERS</h2>
                 <svg xmlns="http://www.w3.org/2000/svg" width="41.125" height="9.146" className="ml-4">
                     <path fill="none" stroke="#9C7C57" strokeMiterlimit="10" d="M40.881 8.576L20.562.591.244 8.576"></path>
                     <path fill="none" stroke="#9C7C57" strokeMiterlimit="10" d="M40.881.591L20.562 8.576.243.591"></path>

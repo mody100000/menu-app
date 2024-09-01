@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         quicksand: ["Quicksand", "sans-serif"],
+        miniver: ["Miniver", "serif"],
       },
       colors: {
         gold: "#C8AB81",

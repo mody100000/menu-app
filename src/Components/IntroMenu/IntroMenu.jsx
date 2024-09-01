@@ -14,7 +14,7 @@ const IntroMenu = () => {
                 <div className="absolute inset-0 bg-black bg-opacity-50" />
             </Parallax>
             <div className="relative z-10 h-full flex items-center justify-center">
-                <h1 className="text-6xl text-gold">OUR MENU</h1>
+                <h1 className="text-6xl text-gold font-bold">OUR MENU</h1>
             </div>
         </div>
     );
