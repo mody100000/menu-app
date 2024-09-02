@@ -23,7 +23,7 @@ const MenuPage = () => {
             <ParallaxProvider>
                 <div className="text-gold min-h-screen relative">
                     <IntroMenu />
-                    <div className='px-3 sm:px-28 relative z-10 my-52'>
+                    <div className='px-3 sm:px-28 relative z-10 mb-52'>
                         <AppetizersMenu />
                     </div>
                     <div className=''>

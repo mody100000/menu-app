@@ -20,7 +20,6 @@ const Footer = () => {
                     <a target='_blank' href="https://maps.app.goo.gl/YTgH5WZ5ZyPX5DNw6" className='hover:text-gold'>
                         3485+M67 Beni Suef
                     </a>, 010-1000-3323, reservations@example.com
-
                 </p>
                 <p className="mb-6">
                     Open: 24 Hours
