@@ -18,7 +18,7 @@ const menuItems = [
 
 const MainCourses = () => {
     return (
-        <div className="container mx-auto px-10 py-16 mt-24 h-screen">
+        <div className="container mx-auto px-10 py-16 mt-24 h-full">
             <h3 className='text-xl text-gold font-miniver text-center mb-4'>Reservations</h3>
             <div className="flex items-center justify-center mb-16">
                 <svg xmlns="http://www.w3.org/2000/svg" width="41.125" height="9.146" className="mr-4">
@@ -38,7 +38,7 @@ const MainCourses = () => {
                             <h3 className="text-xl">{item.name}</h3>
                             <span className="text-xl">${item.price}</span>
                         </div>
-                        <p className="text-sm text-white mt-1">{item.description}</p>
+                        <p className="text-sm text-white mt-1 font-josefin">{item.description}</p>
                     </div>
                 ))}
             </div>

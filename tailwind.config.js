@@ -6,6 +6,7 @@ export default {
       fontFamily: {
         quicksand: ["Quicksand", "sans-serif"],
         miniver: ["Miniver", "serif"],
+        josefin: ["Josefin Sans", "sans-serif"],
       },
       colors: {
         gold: "#C8AB81",

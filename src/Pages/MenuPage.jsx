@@ -33,7 +33,7 @@ const MenuPage = () => {
                         <MainCourses />
                     </div>
                     <DessertsIntro />
-                    <div className='px-3 sm:px-28 relative z-10 my-28'>
+                    <div className='px-3 sm:px-28 relative z-10 my-48'>
                         <Desserts />
                     </div>
                     <IntroFooter />
