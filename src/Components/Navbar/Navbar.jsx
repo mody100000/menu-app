@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 const Navbar = () => {
     return (
         <>
-            <nav className="flex justify-center space-x-10 mt-10 text-xl">
+            <nav className="flex justify-center space-x-10 mt-10 text-xl font-comingSoon relative z-10">
                 <NavLink
                     to="/"
                     className={({ isActive }) =>

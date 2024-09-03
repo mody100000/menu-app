@@ -7,6 +7,7 @@ export default {
         quicksand: ["Quicksand", "sans-serif"],
         miniver: ["Miniver", "serif"],
         josefin: ["Josefin Sans", "sans-serif"],
+        comingSoon: ["Coming Soon", "cursive"],
       },
       colors: {
         gold: "#C8AB81",
