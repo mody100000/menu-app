@@ -13,7 +13,7 @@ const IntroAboutUs = () => {
                 <Navbar />
             </div>
             <div className="absolute inset-0 flex justify-center items-center">
-                <h1 className="text-gold font-semibold leading-[61px] text-6xl text-center mt-32">ABOUT US</h1>
+                <h1 className="text-gold font-semibold text-6xl text-center tracking-widest mt-32">ABOUT US</h1>
             </div>
         </div>
     );

@@ -13,7 +13,7 @@ const IntroMenu = () => {
                 <Navbar />
             </div>
             <div className="absolute inset-0 flex justify-center items-center">
-                <h1 className="text-gold font-bold text-6xl text-center mt-32">OUR MENU</h1>
+                <h1 className="text-gold font-bold text-6xl text-center tracking-widest mt-32">OUR MENU</h1>
             </div>
         </div>
     );

@@ -5,8 +5,11 @@ import IntroAboutUs from '../Components/AboutUsComponents/IntroAboutUs/IntroAbou
 import MainAboutUs from '../Components/AboutUsComponents/MainAboutUs/MainAboutUs';
 import AboutUsVideo from '../Components/AboutUsComponents/AboutUsVideo/AboutUsVideo';
 import TestimonialSlider from '../Components/AboutUsComponents/TestimonialSlider/TestimonialSlider';
+import Navbar from '../Components/Navbar/Navbar';
+import ContactUsMap from '../Components/ContactUsComponents/ContactUsMap/ContactUsMap';
+import ContactUsMain from '../Components/ContactUsComponents/ContactUsMap/ContactUsMain/ContactUsMain';
 
-const AboutUsPage = () => {
+const ContactUsPage = () => {
     const [scrollY, setScrollY] = useState(0);
 
     useEffect(() => {
@@ -19,15 +22,16 @@ const AboutUsPage = () => {
         <>
             <ParallaxProvider>
                 <div className="text-gold min-h-screen relative">
-                    <IntroAboutUs />
-                    <div className='px-3 sm:px-28 relative z-10 mb-52'>
-                        <MainAboutUs />
+                    <Navbar />
+                    <div className='px-9 py-12'>
+                        <div className='px-3 sm:px-28 relative z-10 mb-36'>
+                            <ContactUsMap />
+                        </div>
+                        <div className='px-3 sm:px-28 relative z-10 '>
+                            <ContactUsMain />
+                        </div>
                     </div>
-                    <AboutUsVideo />
-                    <div className='px-3 sm:px-28 relative z-10 mt-52 min-h-screen flex items-center justify-center'>
-                        <TestimonialSlider />
-                    </div>
-                    <div className='px-3 sm:px-28 relative z-10 mt-10 mb-20'>
+                    <div className='px-3 sm:px-28 relative z-10 mt-28 mb-20'>
                         <div className="border-b-[1px] border-[#c8aa8180] w-full mx-auto mt-7"></div>
                         <Footer />
                     </div>
@@ -40,4 +44,4 @@ const AboutUsPage = () => {
     );
 };
 
-export default AboutUsPage;
+export default ContactUsPage;

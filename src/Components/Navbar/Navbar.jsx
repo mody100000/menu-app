@@ -14,20 +14,20 @@ const Navbar = () => {
                     Menu
                 </NavLink>
                 <NavLink
-                    to="/contact-us"
-                    className={({ isActive }) =>
-                        isActive ? 'border-b-2 border-gold text-gold' : 'text-white'
-                    }
-                >
-                    Contact Us
-                </NavLink>
-                <NavLink
                     to="/about-us"
                     className={({ isActive }) =>
                         isActive ? 'border-b-2 border-gold text-gold' : 'text-white'
                     }
                 >
                     About Us
+                </NavLink>
+                <NavLink
+                    to="/contact-us"
+                    className={({ isActive }) =>
+                        isActive ? 'border-b-2 border-gold text-gold' : 'text-white'
+                    }
+                >
+                    Contact Us
                 </NavLink>
             </nav>
             <div className="border-b-[1px] border-[#c8aa8180] w-[85%] mx-auto mt-7"></div>

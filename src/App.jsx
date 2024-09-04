@@ -3,6 +3,7 @@ import MenuPage from './Pages/MenuPage';
 import { ParallaxProvider } from 'react-scroll-parallax';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import AboutUsPage from './Pages/AboutUsPage';
+import ContactUsPage from './Pages/ContactUsPage';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           {/* Define your routes here */}
           <Route path="/" element={<MenuPage />} />
           <Route path="/about-us" element={<AboutUsPage />} />
+          <Route path="/contact-us" element={<ContactUsPage />} />
           {/* Add more routes as needed */}
         </Routes>
       </ParallaxProvider>

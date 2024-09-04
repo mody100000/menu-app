@@ -1,5 +1,5 @@
 import React from 'react';
-import footerLogo from "@assets/footer-logo.webp"
+import footerLogo from "@assets/logo.webp"
 const Footer = () => {
     return (
         <footer className="py-16">
