@@ -1,10 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { ParallaxProvider } from 'react-scroll-parallax';
 import Footer from '../Components/Footer/Footer';
-import IntroAboutUs from '../Components/AboutUsComponents/IntroAboutUs/IntroAboutUs';
-import MainAboutUs from '../Components/AboutUsComponents/MainAboutUs/MainAboutUs';
-import AboutUsVideo from '../Components/AboutUsComponents/AboutUsVideo/AboutUsVideo';
-import TestimonialSlider from '../Components/AboutUsComponents/TestimonialSlider/TestimonialSlider';
 import Navbar from '../Components/Navbar/Navbar';
 import ContactUsMap from '../Components/ContactUsComponents/ContactUsMap/ContactUsMap';
 import ContactUsMain from '../Components/ContactUsComponents/ContactUsMap/ContactUsMain/ContactUsMain';

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Parallax } from 'react-scroll-parallax';
 
 const menuItems = [
     { name: "Four Cheese Garlic Bread", price: 32, description: "Toasted French bread topped with romano, cheddar" },

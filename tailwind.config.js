@@ -8,6 +8,7 @@ export default {
         miniver: ["Miniver", "serif"],
         josefin: ["Josefin Sans", "sans-serif"],
         comingSoon: ["Coming Soon", "cursive"],
+        zentokyo: ['"Zen Tokyo Zoo"', "cursive"],
       },
       colors: {
         gold: "#C8AB81",
