@@ -15,9 +15,20 @@ body {
 }
 
 .swiper-pagination-number {
-  @apply text-white text-lg mx-3 mt-20 cursor-pointer;
+  @apply text-white text-lg mx-3 mt-20 font-miniver cursor-pointer;
 }
 
 .swiper-pagination-number-active {
-  @apply text-gold underline mb-1 font-bold;
+  @apply text-gold underline text-xl mb-1 font-miniver font-bold;
+}
+.arrowes {
+  display: block !important;
+  z-index: 10 !important;
+}
+
+@media (max-width: 700px) {
+  .arrowes {
+    display: none !important;
+    z-index: 1 !important;
+  }
 }

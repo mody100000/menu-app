@@ -20,11 +20,13 @@ const AboutUsPage = () => {
             <ParallaxProvider>
                 <div className="text-gold min-h-screen relative">
                     <IntroAboutUs />
-                    <div className='px-3 sm:px-28 relative z-10 mb-52'>
+                    <div className='px-3 sm:px-28 relative z-10 my-10'>
                         <MainAboutUs />
                     </div>
-                    <AboutUsVideo />
-                    <div className='px-3 sm:px-28 relative z-10 mt-52 min-h-screen flex items-center justify-center'>
+                    <div className="px-0 sm:px-32">
+                        <AboutUsVideo />
+                    </div>
+                    <div className='px-3 sm:px-28 relative z-10 min-h-screen flex items-center justify-center'>
                         <TestimonialSlider />
                     </div>
                     <div className='px-3 sm:px-28 relative z-10 mt-10 mb-20'>

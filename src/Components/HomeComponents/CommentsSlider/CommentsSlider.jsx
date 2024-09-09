@@ -27,7 +27,7 @@ const testimonials = [
 
 const CommentsSlider = () => {
     return (
-        <div className='flex flex-col sm:flex-row bg-[#0F1D22] h-100'>
+        <div className='flex flex-col sm:flex-row bg-[#0F1D22] h-full'>
             <div className="relative overflow-hidden w-full sm:w-1/2 my-36">
                 <div className="mb-4 flex justify-center items-center text-gold">
                     <RiDoubleQuotesR className='text-center' size={50} />

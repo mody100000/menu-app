@@ -12,7 +12,7 @@ import { Parallax } from 'react-scroll-parallax';
 
 const slides = [
     {
-        title: "THE FOOD HEAVEN",
+        title: "THE BEST DISHES",
         subtitle: "the most delicious flavor combos",
         description: "Experimentation in the kitchen and focus on excellence are among our main driving forces in cooking.",
         image: menu1
@@ -48,7 +48,11 @@ const IntroHome = () => {
                 pagination={{
                     clickable: true,
                     el: '.swiper-pagination',
-                    type: 'fraction',
+                    renderBullet: (index, className) => {
+                        return `<span class="${className}">${index + 1}</span>`;
+                    },
+                    bulletClass: 'swiper-pagination-number',
+                    bulletActiveClass: 'swiper-pagination-number-active',
                 }}
                 autoplay={{ delay: 5000 }}
                 loop
@@ -73,11 +77,16 @@ const IntroHome = () => {
                         </div>
                     </SwiperSlide>
                 ))}
+                <div className="swiper-pagination !text-gold absolute z-10 bottom-8 left-1/2 transform -translate-x-1/2"></div>
+
             </Swiper>
 
-            <div className="swiper-button-prev !text-gold px-0 sm:px-10"></div>
-            <div className="swiper-button-next !text-gold px-0 sm:px-10"></div>
-            <div className="swiper-pagination !text-gold absolute bottom-8 left-1/2 transform -translate-x-1/2"></div>
+            <div className="swiper-button-prev arrowes !text-gold px-0 sm:px-10"></div>
+            <div className="swiper-button-next arrowes !text-gold px-0 sm:px-10"></div>
+            {/* <div className="swiper-pagination !text-gold absolute z-10 bottom-8 left-1/2 transform -translate-x-1/2"></div>
+             */}
+            {/* <div className="swiper-pagination flex justify-center !z-10 mt-4"></div> */}
+
         </div>
     );
 };
