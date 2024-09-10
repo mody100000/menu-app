@@ -4,7 +4,6 @@ import 'react-datepicker/dist/react-datepicker.css';
 
 function BookATable() {
     const [selectedDate, setSelectedDate] = useState(new Date());
-    const [selectedTime, setSelectedTime] = useState(null);
 
     useEffect(() => {
         setSelectedDate(new Date());
@@ -54,13 +53,13 @@ function BookATable() {
                             onChange={(date) => setSelectedDate(date)}
                             className="bg-[#0F1D22] border border-gold text-gray-300 text-sm focus:ring-0 focus:border-gold block w-64 cursor-pointer p-3"
                             placeholderText={selectedDate.toLocaleDateString()}
-                            dateFormat="yyyy-MM-dd"
+                            dateFormat="dd-MM-yyyy"
                         />
                     </div>
 
                     {/* Time Picker with React Icon */}
                     <select
-                        id="persons"
+                        id="times"
                         className="bg-[#0F1D22] border border-gold text-gray-300 text-sm focus:outline-none focus:ring-0 focus:border-gold block p-3 w-64 cursor-pointer"
                         required
                     >

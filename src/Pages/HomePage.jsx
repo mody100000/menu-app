@@ -59,7 +59,7 @@ const HomePage = () => {
                         </div>
                     </div>
                     <div className='px-3 sm:px-28 relative z-10 mb-20'>
-                        <div className="border-b-[1px] border-[#c8aa8180] w-full mx-auto mt-7"></div>
+                        <div className="border-b-[1px] border-[#c8aa8180] w-full mx-auto"></div>
                         <Footer />
                     </div>
                 </div>
